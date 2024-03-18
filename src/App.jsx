@@ -3,11 +3,11 @@ import iconSuvs from './assets/icon-suvs.svg'
 import iconLuxury from './assets/icon-luxury.svg'
 export default function App() {
   return (
-   <main className='min-h-svh bg-offwhitebg px-6 py-20'>
-      <section className='md:flex '>
+   <main className='min-h-svh bg-offwhitebg px-6 py-20 antialiased lg:flex justify-center items-center'>
+      <section className='lg:flex '>
         <div className='bg-orange p-12 rounded-t-lg md:rounded-s-lg'>
           <img src={iconSedans} alt="Icon sedan car" className='mb-7'/>
-          <h2 className='font-shoulders mb-7 uppercase text-4xl font-bold text-offwhitebg'>Sedans</h2>
+          <h2 className='font-shoulders mb-7 uppercase text-4xl font-bold text-offwhitebg '>Sedans</h2>
           <p className='font-lexend mb-7 text-offwhite text-sm'>Escolha um sedan pelo seu preço acessível e excelente economia de combustível. Ideal para dirigir na cidade ou na sua próxima viagem.</p>
           <a className='font-lexend bg-offwhitebg text-orange px-10 py-3 rounded-3xl block w-fit' href="https://www.webmotors.com.br/ofertas/feiroes/lojaoficialbmw/carros-usados/estoque/bmw?lkid=2243&tipoveiculo=carros-usados&marca1=bmw&feirao=Loja%20Oficial%20BMW" target='_blank'>Ver mais</a>
         </div>
